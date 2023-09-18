@@ -1,5 +1,5 @@
 view: lgcns_nxpoc_nxuser {
-  sql_table_name: `NXPOC_L2.LGCNS_NXPOC_NXUSER` ;;
+  sql_table_name: `NXPOC_L2.LGCNS_NXPOC_NXUSER_SEG` ;;
 
   dimension_group: creation {
     type: time
