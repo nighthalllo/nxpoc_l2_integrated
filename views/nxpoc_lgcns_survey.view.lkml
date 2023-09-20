@@ -54,7 +54,7 @@ view: lgcns_nxpoc_survey {
     sql: ${TABLE}.survey3_name ;;
   }
   dimension: question_id_filtered {
-    sql: (SELECT ${question_id} FROM ${TABLE} WHERE survey3_id = ${survey3_id} ;;
+    sql: (SELECT DISTINCT(${question_id}) FROM ${TABLE} WHERE survey3_name = ${survey3_name} ;;
   }
   measure: count {
     type: count
