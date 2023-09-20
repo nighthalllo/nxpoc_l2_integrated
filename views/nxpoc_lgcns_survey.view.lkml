@@ -53,8 +53,8 @@ view: lgcns_nxpoc_survey {
     type: string
     sql: ${TABLE}.survey3_name ;;
   }
-  dimension: question_id_filtered {
-    sql: (SELECT DISTINCT(${question_id}) FROM ${TABLE} WHERE survey3_name = ${survey3_name} ;;
+  dimension: question_title_filtered {
+    sql: (SELECT DISTINCT(${question_title}) FROM ${TABLE} WHERE survey3_name = ${TABLE}.survey3_id ;;
   }
   measure: count {
     type: count
