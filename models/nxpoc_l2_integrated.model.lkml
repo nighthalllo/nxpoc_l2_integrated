@@ -26,3 +26,5 @@ explore: lgcns_nxpoc_survey {
 }
 
 explore: lgcns_nxpoc_nxuser {}
+
+explore: lgcns_nxpoc_survey_llm_result {}
