@@ -63,6 +63,7 @@ view: lgcns_nxpoc_nxuser {
     sql: ${TABLE}.user_segmentation ;;
   }
   parameter: dynamic_dimension_selection {
+    label: "그룹"
     type: unquoted
     default_value: "segmentation"
     allowed_value: {
