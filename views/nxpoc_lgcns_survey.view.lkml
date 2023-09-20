@@ -53,6 +53,9 @@ view: lgcns_nxpoc_survey {
     type: string
     sql: ${TABLE}.survey3_name ;;
   }
+  dimension: question_id_filtered {
+    sql: (SELECT ${question_id} FROM ${TABLE} WHERE survey3_id = ${survey3_id} ;;
+  }
   measure: count {
     type: count
     drill_fields: [survey3_name]
