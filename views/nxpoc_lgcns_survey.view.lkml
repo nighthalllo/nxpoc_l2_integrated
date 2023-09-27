@@ -1,5 +1,5 @@
 view: lgcns_nxpoc_survey {
-  sql_table_name: `NXPOC_L2.LGCNS_NXPOC_SURVEY` ;;
+  sql_table_name: `NXPOC_L2.LGCNS_NXPOC_SURVEY_OLD` ;;
 
   dimension: answer_content {
     type: string
