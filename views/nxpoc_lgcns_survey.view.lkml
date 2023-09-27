@@ -63,6 +63,6 @@ view: lgcns_nxpoc_survey {
   }
   measure: count {
     type: count
-    drill_fields: [lgcns_nxpoc_nxuser.user_segmentation, count]
+    drill_fields: [lgcns_nxpoc_nxuser.user_segmentation,lgcns_nxpoc_nxuser.new_or_return_user, count]
   }
 }
